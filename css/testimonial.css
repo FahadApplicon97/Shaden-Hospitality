@@ -1,0 +1,106 @@
+.testimonial-section {
+    padding: 120px 0;
+    background: #F7F3EE;
+}
+
+.testimonial-section .gt-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-left-content .gt-testimonial-text {
+    margin-top: 25px;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-left-content .gt-client-info {
+    margin-top: 60px;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-left-content .gt-client-info .gt-client-image {
+    margin-bottom: 20px;
+}
+
+.gt-testimonial-wrapper .array-button-2 {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: 50px;
+}
+
+.gt-testimonial-wrapper .array-button-2 .array-prev,
+.gt-testimonial-wrapper .array-button-2 .array-next,
+.gt-testimonial-wrapper .array-button-2 .cta-prev,
+.gt-testimonial-wrapper .array-button-2 .cta-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    border: none;
+}
+
+.gt-testimonial-wrapper .array-button-2 .array-prev {
+    background-color: white;
+    color: var(--primary-color-2);
+}
+
+.gt-testimonial-wrapper .array-button-2 .array-next {
+    background-color: var(--primary-color-1);
+}
+
+.gt-testimonial-wrapper .array-button-2 .swiper-dot1 {
+    text-align: center;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-box {
+    border-radius: 12px;
+    border: 1.5px solid var(--primary-color-1);
+    background: white;
+    padding: 40px;
+    position: relative;
+    margin-left: 60px;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-box .quote-icon {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-box .star {
+    color: #FCD554;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-box .gt-testi-text {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-box .gt-client-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.gt-testimonial-wrapper .gt-testimonial-box .gt-client-info .gt-client-content h4 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .gt-testimonial-wrapper .gt-testimonial-box .quote-icon {
+        top: 20px;
+        bottom: auto !important;
+        right: 20px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .gt-testimonial-wrapper .gt-testimonial-box {
+        margin-left: 0;
+    }
+}

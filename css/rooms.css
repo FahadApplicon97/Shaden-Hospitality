@@ -1,0 +1,135 @@
+.room-discover-link-btn:hover {
+    text-decoration: underline !important;
+}
+
+.room-section {
+    padding: 120px 0;
+    background: #F8F8F8;
+}
+
+.room-slider-wrapper {
+    margin-left: -3%;
+    margin-right: -10%;
+    margin-top: 30px;
+}
+
+.room-image {
+    min-height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.room-slider-wrapper .swiper-slide {
+    width: 25%;
+    margin-right: 30px;
+}
+
+.room-slider-wrapper .room-items {
+    margin-top: 30px;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.room-slider-wrapper .room-items .room-item-thumb {
+    overflow: hidden;
+    position: relative;
+}
+
+.room-slider-wrapper .room-items .room-item-thumb img:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    -webkit-transform: translateX(50%) scaleX(2);
+    transform: translate(50%) scaleX(2);
+    opacity: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.room-slider-wrapper .room-items .room-item-thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0px 0px;
+    position: relative;
+    display: block;
+    object-fit: cover;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.room-slider-wrapper .room-items .room-item-thumb .room-post-box {
+    border-radius: 4px;
+    display: inline-block;
+    background-color: var(--primary-color-1);
+    padding: 5px 14px;
+    color: white;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 9;
+}
+
+.room-slider-wrapper .room-items .room-content {
+    padding: 24px;
+}
+
+.room-slider-wrapper .room-items .room-content .room-category {
+    display: inline-block;
+    color: var(--primary-color-1);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.room-slider-wrapper .room-items .room-content h3 a {
+    background-position: 0 95%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    display: inline;
+    color: unset;
+    transition: all 0.4s ease-in-out;
+}
+
+.room-slider-wrapper .room-items .room-content h3 a:hover {
+    color: var(--primary-color-1);
+    background-size: 100% 2px;
+    background-image: linear-gradient(180deg, var(--primary-color-1) 0%, var(--primary-color-1) 100%);
+}
+
+.room-slider-wrapper .room-items .room-content .room-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.room-slider-wrapper .room-items .room-content .room-discover-link-btn {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--primary-color-1);
+    margin-top: 24px;
+}
+
+@media screen and (min-width: 2500px) {
+    .room-slider-wrapper .swiper-slide {
+        width: 20% !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .room-slider-wrapper .swiper-slide {
+        width: 33.33% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .room-slider-wrapper .swiper-slide {
+        width: 50% !important;
+    }
+}

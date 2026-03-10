@@ -1,0 +1,229 @@
+.service-details-container .service-details .service-details-content {
+    margin-top: 30px;
+}
+
+.service-details-container .service-details .service-details-content h2 {
+    margin-bottom: 15px;
+}
+
+.service-details-container .service-details .service-details-content .services-details-quote-section {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color-2);
+    border-radius: 8px;
+    border-left: 5px solid var(--primary-color-1);
+    background: #F7F3EE;
+    display: inline-block;
+    padding: 24px 32px;
+    font-style: italic;
+    margin-top: 30px;
+    line-height: 164%;
+}
+
+.check-avail-hover-btn:hover::before {
+    height: 550%;
+}
+
+.s-d-bg-img {
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s-d-gallery-img {
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item h3 {
+    margin-bottom: 20px;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item ul li {
+    text-transform: capitalize;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item ul li span i {
+    color: var(--primary-color-1);
+    margin-right: 10px;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item ul li span {
+    font-weight: 500;
+    color: var(--primary-color-2);
+    display: block;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item h3 {
+    margin-bottom: 20px;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item ul li {
+    text-transform: capitalize;
+}
+
+.service-details-container .service-details .service-details-content .details-list-item ul li span {
+    font-weight: 900;
+    color: var(--primary-color-2);
+    display: block;
+}
+
+.service-details-container .service-details .service-details-content .faq-content {
+    margin-top: 40px;
+}
+
+.service-details-container .service-details .service-details-content .faq-content h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-details-container .service-details .service-details-content .faq-content .accordion-item {
+    border: none !important;
+    background: #f8f8f8;
+}
+
+.service-details-container .service-details .service-details-content .faq-content .accordion-item .accordion-collapse .accordion-body {
+    padding-left: 33px;
+    padding-top: 15px;
+    padding-right: 40px;
+    color: var(--primary-color-2);
+    background: #f8f8f8;
+    padding-bottom: 28px;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.right-sidebar-section .right-sidebar .services-details-list li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.right-sidebar-section .right-sidebar .services-details-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color-2);
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    padding: 18px 22px;
+    line-height: 1;
+    border-radius: 8px;
+}
+
+.right-sidebar-section .right-sidebar .services-details-list li:hover {
+    background-color: var(--primary-color-1);
+}
+
+.right-sidebar-section .right-sidebar .services-details-list li:hover a,
+.right-sidebar-section .right-sidebar .services-details-list li:hover i {
+    color: white;
+}
+
+.right-sidebar-section .right-sidebar .services-details-list li a {
+    color: var(--primary-color-2);
+}
+
+.right-sidebar-section .right-sidebar .services-details-list li i {
+    transition: all 0.4s ease-in-out;
+    color: var(--primary-color-2);
+}
+
+.right-sidebar-section .right-sidebar .hours-list li:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.right-sidebar-section .right-sidebar .hours-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-sidebar-section .right-sidebar .hours-list li span {
+    font-weight: 500;
+    color: var(--primary-color-2);
+}
+
+.right-sidebar-section .right-sidebar .hours-list li b {
+    font-weight: 500;
+    color: var(--primary-color-1);
+}
+
+.service-details-container .service-details .service-details-content .faq-content .accordion-item .accordion-header .accordion-button.collapsed {
+    background: #F4F4F4;
+    padding: 22px 30px;
+    color: var(--primary-color-2);
+    border-radius: 16px;
+}
+
+.service-details-container .service-details .service-details-content .faq-content .accordion-item .accordion-header .accordion-button {
+    font-weight: 500;
+    color: var(--primary-color-2);
+    letter-spacing: -0.2px;
+    border: none !important;
+    border-radius: 0;
+    box-shadow: none;
+    background: #F4F4F4;
+    padding: 20px 30px 0;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.service-details-container .service-details .service-details-content .faq-content .accordion-item .accordion-header .accordion-button::after {
+    transition: all 0.3s ease-in-out !important;
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    color: var(--primary-color-2);
+    content: "\f101";
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+    background-image: none;
+}
+
+.service-details-container .service-details .service-details-content .faq-content .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+    font-weight: 900;
+    color: var(--primary-color-1);
+    transform: rotate(0);
+    background-image: none;
+    content: "\f103";
+}
+
+.service-details-contact-bg {
+    z-index: 9;
+}
+
+.service-details-contact-bg::before {
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}

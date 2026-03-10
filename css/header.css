@@ -1,0 +1,35 @@
+header {
+    border-bottom: 0.5px solid rgb(184, 184, 184);
+}
+
+.main-header .navbar-nav .nav-link:hover {
+    color: var(--primary-color-1) !important;
+}
+
+.header-hover-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -16px;
+    z-index: -1;
+    background-color: #FFF;
+    right: 0;
+    bottom: 0;
+    width: 130%;
+    height: 0%;
+    margin: auto;
+    transform: rotate(-45deg);
+    transition: 700ms cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.header-hover-btn {
+    z-index: 1;
+}
+
+.header-hover-btn:hover {
+    color: var(--primary-color-2) !important;
+}
+
+.header-hover-btn:hover::before {
+    height: 550%;
+}

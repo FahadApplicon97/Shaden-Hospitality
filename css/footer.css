@@ -1,0 +1,109 @@
+.shaden-footer-container {
+    padding: 90px 0 120px;
+}
+
+.shaden-footer-container .footer-items {
+    margin-top: 30px;
+}
+
+.shaden-footer-container .footer-items .footer-item-heading {
+    margin-bottom: 30px;
+}
+
+.shaden-footer-container .footer-items .footer-item-heading .footer-logo img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.shaden-footer-container .footer-items .footer-content .social-icons {
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.shaden-footer-container .footer-items .footer-content .social-icons a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.shaden-footer-container .footer-items .footer-content .social-icons a:hover,
+.shaden-footer-container .footer-items .footer-links li a:hover {
+    color: var(--primary-color-1);
+}
+
+.shaden-footer-container .footer-items .footer-links li:not(:last-child),
+.shaden-footer-container .footer-items .active-hours li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.shaden-footer-container .footer-items .footer-links li a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.shaden-footer-container .footer-items .active-hours li {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.shaden-footer-container .footer-items .contact-info li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.shaden-footer-container .footer-items .contact-info li {
+    display: flex;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    align-items: center;
+}
+
+.shaden-footer-container .footer-items .contact-info li a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.shaden-footer-container .footer-items .contact-info li a:hover {
+    color: var(--primary-color-1);
+}
+
+.footer-bottom {
+    position: relative;
+    z-index: 9;
+    z-index: 9;
+    border-top: 1.5px solid rgba(155, 155, 155, 0.24);
+}
+
+.footer-bottom .footer-bottom-wrapper {
+    position: relative;
+    z-index: 9;
+    padding: 20px 0;
+}
+
+.footer-bottom .footer-bottom-wrapper p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-bottom .footer-bottom-wrapper p a {
+    color: var(--primary-color-1);
+}
+
+.footer-bottom .footer-bottom-wrapper ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom .footer-bottom-wrapper ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    background-image: linear-gradient(var(--primary-color-1), var(--primary-color-1));
+    background-position: 0 95%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+.footer-bottom .footer-bottom-wrapper ul li a:hover {
+    background-size: 100% 1px;
+    color: var(--primary-color-1);
+}

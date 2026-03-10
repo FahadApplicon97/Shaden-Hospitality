@@ -1,0 +1,176 @@
+.special-offers-section {
+    position: relative;
+    padding: 120px 0;
+    z-index: 9;
+}
+
+.special-offers-section .gt-right-shape {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+.gt-section-title {
+    position: relative;
+    z-index: 99;
+    margin-bottom: 30px;
+}
+
+.gt-special-offer-wrapper .swiper-slide {
+    width: 33.33%;
+    margin-right: 30px;
+}
+
+.gt-special-offer-wrapper {
+    margin-left: -20%;
+    margin-right: -28%;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items {
+    border-radius: 12px;
+    background: #F8F8F8;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-slider .swiper-slide-active .gt-special-offer-box-items {
+    background: var(--primary-color-1);
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb {
+    max-width: 348px;
+    /* width: 100%;
+    overflow: hidden;
+    position: relative; */
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+    display: block;
+    object-fit: cover;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb img:first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    -webkit-transform: translateX(50%) scaleX(2);
+    transform: translate(50%) scaleX(2);
+    opacity: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content span {
+    font-size: 16px;
+    color: var(--primary-color-1);
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.gt-special-offer-box-items .gt-content h3 a {
+    outline: none !important;
+    cursor: pointer;
+    color: var(--primary-color-2);
+    transition: all 0.4s ease-in-out;
+    background-position: 0 95%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    display: inline;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content p {
+    max-width: 435px;
+    margin-top: 10px;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-slider .gt-special-offer-box-items .gt-content h3 a:hover {
+    color: var(--primary-color-1);
+    background-size: 100% 2px;
+    background-image: linear-gradient(180deg, var(--primary-color-1) 0%, var(--primary-color-1) 100%);
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-list-area {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-list-area .gt-list li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-list-area .gt-list li {
+    color: var(--primary-color-2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-price-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-price-list del {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary-color-1);
+}
+
+.gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-price-list h4 {
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--primary-color-1);
+}
+
+@media (max-width: 1399px) {
+    .gt-special-offer-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .gt-special-offer-wrapper .gt-special-offer-box-items {
+        display: block;
+    }
+
+    .gt-special-offer-wrapper .gt-special-offer-box-items .gt-thumb {
+        max-width: 800px;
+        margin-bottom: 25px;
+    }
+
+    .gt-special-offer-wrapper .gt-special-offer-box-items .gt-content .gt-list-area {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gt-special-offer-wrapper .swiper-slide {
+        width: 100%;
+        margin-right: 0;
+    }
+}

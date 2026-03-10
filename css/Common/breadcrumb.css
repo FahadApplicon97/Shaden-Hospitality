@@ -1,0 +1,37 @@
+.breadcrumb-wrapper {
+    z-index: 9;
+}
+
+.breadcrumb-wrapper .breadcrumb-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.breadcrumb-wrapper .breadcrumb-heading {
+    position: relative;
+    padding: 120px 0 160px;
+    z-index: 9;
+    text-align: center;
+}
+
+.breadcrumb-wrapper .breadcrumb-heading .breadcrumb-links {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.breadcrumb-wrapper .breadcrumb-heading .breadcrumb-links li {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.breadcrumb-wrapper .breadcrumb-heading .breadcrumb-links li a {
+    color: white;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}

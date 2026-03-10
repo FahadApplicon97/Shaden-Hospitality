@@ -1,0 +1,122 @@
+.instagram-section {
+    padding: 120px 0;
+    background: #f8f8f8;
+}
+
+.gt-section-title {
+    position: relative;
+    z-index: 99;
+    margin-bottom: 30px;
+}
+
+.instagram-image {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 8px 8px 0px 0px;
+    min-height: 250px;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: all 1.5s ease-out;
+    background-repeat: no-repeat;
+}
+
+.instagram-image:hover {
+    background-size: 110% 110%;
+}
+
+.instagram-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 30px;
+    top: 30px;
+    bottom: 0px;
+    right: 0;
+    background: rgba(29, 29, 29, 0.6);
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+    transform-origin: top right;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    z-index: 9;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.instagram-image img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.02);
+    transition: all 1.5s ease-out;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.instagram-image:hover img {
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+.instagram-image:hover::before {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transform-origin: bottom center;
+}
+
+.instagram-image .instagram-icon {
+    display: inline-block;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+}
+
+.instagram-image:hover .instagram-icon {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.instagram-slider .swiper-slide {
+    width: 20%;
+    margin-right: 30px;
+}
+
+@media screen and (min-width: 2500px) {
+    .instagram-image {
+        min-height: 350px !important;
+    }
+}
+
+@media screen and (max-width:1199px) {
+
+    .instagram-slider .swiper-slide {
+        width: 33.33%;
+    }
+
+    .instagram-section {
+        padding: 100px 0;
+    }
+
+    @media (max-width: 991px) {
+        .instagram-section {
+            padding: 80px 0;
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        .instagram-slider .swiper-slide {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+}
